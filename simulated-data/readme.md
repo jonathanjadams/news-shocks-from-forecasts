@@ -13,9 +13,13 @@ Currently, all files in this folder correspond to the comporting model: 3 struct
 *irf_y_v.csv* IRF of *output* to *v*
 
 *irf_y_u.csv* IRF of *output* to *u*
+
 *irf_pi_v.csv*  IRF of *inflation* to *v*
+
 *irf_pi_u.csv*  IRF of *inflation* to *u*
+
 *irf_i_v.csv*  IRF of *interest rate* to *v*
+
 *irf_i_u.csv*  IRF of *interest rate* to *u*
 
 
