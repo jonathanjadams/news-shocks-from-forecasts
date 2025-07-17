@@ -77,10 +77,10 @@ epsilon=6;
 
 sigma_u = sqrt(.5); % sqrt(.25);
 sigma_v = sqrt(.5); %sqrt(1 - sigma_u^2); %sqrt(.5);
-sigma_x = sqrt(.5);
-sigma_z = sqrt(.5);
-sigma_xnews = sqrt(.5);
-sigma_znews = sqrt(.5);
+sigma_x = sqrt(2/3);
+sigma_z = sqrt(3/4);
+sigma_xnews = sqrt(1/3);
+sigma_znews = sqrt(1/4);
 	
 
 piycorr = -9;
