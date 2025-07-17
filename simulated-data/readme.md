@@ -4,7 +4,7 @@ Currently, all files in this folder correspond to the comporting model: 3 struct
 
 *NK3_monetary_news_6shocks.mod* -- Dynare file to solve and simulate the model.
 
-*simdata_NK3_moneynews_6shocks.csv* -- Simulated time series of endogenous variables.  Each row is an observation.  The columns are ordered: [X', F'] where X' = [*output*, *inflation*, * interest rate*] and F' is the associated vector of 1-period-ahead forecasts.
+*simdata_NK3_moneynews_6shocks.csv* -- Simulated time series of endogenous variables.  Each row is an observation.  The columns are ordered: [ F', X'] where X' = [*output*, *inflation*, * interest rate*] and F' is the associated vector of 1-period-ahead forecasts.
 
 *simshocks_NK3_moneynews_6shocks.csv* -- Simulated time series of exogenous shocks.  Each row is an observation.  The colums are ordered: [*x_news x_surprise z_news z_surprise v u*] corresponding to the notation of Section 2.  v is monetary policy news, u is monetary policy surprise.
 
