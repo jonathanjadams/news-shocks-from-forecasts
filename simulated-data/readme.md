@@ -10,7 +10,9 @@ This folder contains a number of dynare **Models**.  Each one produces output, s
 
 *simdata.csv* -- Simulated time series of endogenous variables.  Each row is an observation.  The columns are ordered: [ F', X'] where X' = [*output*, *inflation*, * interest rate*] and F' is the associated vector of 1-period-ahead forecasts.
 
-*simshocks.csv* -- Simulated time series of exogenous shocks.  Each row is an observation.  The colums are ordered: [*x_news x_surprise z_news z_surprise v u*] corresponding to the notation of Section 2.  v is monetary policy news, u is monetary policy surprise.
+*simshocks.csv* -- Simulated time series of exogenous shocks.  Each row is an observation.  The columns are ordered: [*x_news x_surprise z_news z_surprise v u*] corresponding to the notation of Section 2.  v is monetary policy news, u is monetary policy surprise.
+
+*variance_decomposition.csv* -- Simulated variance decomposition; rows correspond to X, i.e. [*output*, *inflation*, * interest rate*]', while columns correspond to [*x_news x_surprise z_news z_surprise v u*].
 
 *Cmatrix.csv* -- Model-implied C matrix.  A (3 x 3) matrix.  Rows correspond to X, i.e. [*output*, *inflation*, * interest rate*]', while columns correspond to [*x_news z_news v*].
 
